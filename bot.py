@@ -13,7 +13,7 @@ import youtube_dl
 load_dotenv()
 
 
-TOKEN = os.environ("DISCORD_TOKEN")
+TOKEN = os.environ["DISCORD_TOKEN"]
 
 bot = commands.Bot(command_prefix = "!")
 
